@@ -1,11 +1,8 @@
 # Grocery_list
-
+```
 Code is to maintain the grocery list of items
-<!--  -->
 Database used here is Mongodb
-<!--  -->
 For testing Postman is used
-<!--  -->
 For Routing FastApi is used
 Routes:
   GET
@@ -13,13 +10,13 @@ Routes:
   PUT 
   DELETE
   DELETE - ALSO USED FOR DELETING THE ENTIRE CART
+```
   
-  
- Mongodb Connection
+# Mongodb Connection
  
- ### always do the connection in try except
-###########################################
-# Connecting  with MongoDB database
+### always do the connection in try and except
+### Connecting  with MongoDB database
+```
 try:
     mongo = pymongo.MongoClient(
         host="localhost",
@@ -31,3 +28,4 @@ try:
 except:
     print("ERROR - Cannot connect  to  database")
  
+```
